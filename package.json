@@ -1,0 +1,20 @@
+{
+  "name": "a-living-style-guide-with-sass-and-vanilla-javascript",
+  "version": "1.0.0",
+  "description": "Adopt-a-Tree is an initiative by Carved Rock Fitness to adopt trees from various afforestation projects across the world.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annie-Huang/a-living-style-guide-with-sass-and-vanilla-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Annie-Huang/a-living-style-guide-with-sass-and-vanilla-javascript/issues"
+  },
+  "homepage": "https://github.com/Annie-Huang/a-living-style-guide-with-sass-and-vanilla-javascript#readme"
+}

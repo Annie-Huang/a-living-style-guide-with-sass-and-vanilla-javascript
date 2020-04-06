@@ -4,3 +4,5 @@ https://github.com/Annie-Huang/a-living-style-guide-with-sass-and-vanilla-javasc
 
 
 ============================================================================================
+
+C:\react\a-living-style-guide-with-sass-and-vanilla-javascript>npm init -y
