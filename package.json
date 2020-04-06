@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Annie-Huang/a-living-style-guide-with-sass-and-vanilla-javascript/issues"
   },
-  "homepage": "https://github.com/Annie-Huang/a-living-style-guide-with-sass-and-vanilla-javascript#readme"
+  "homepage": "https://github.com/Annie-Huang/a-living-style-guide-with-sass-and-vanilla-javascript#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
 }
