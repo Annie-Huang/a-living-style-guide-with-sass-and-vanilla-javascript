@@ -3,6 +3,7 @@ https://app.pluralsight.com/library/courses/creating-living-style-guide-sass-van
 https://github.com/Annie-Huang/a-living-style-guide-with-sass-and-vanilla-javascript
 
 http://sass.js.org/
+https://icomoon.io/app/#/select
 
 https://stackoverflow.com/questions/46953808/node-sass-installation-issue-on-windows-10
 ============================================================================================
@@ -10,3 +11,13 @@ https://stackoverflow.com/questions/46953808/node-sass-installation-issue-on-win
 C:\react\a-living-style-guide-with-sass-and-vanilla-javascript>npm init -y
 C:\react\a-living-style-guide-with-sass-and-vanilla-javascript>npm install node-sass --save-dev
 
+Have 3 terminals to run these:
+    "start": "lite-server",
+    "watch-sass-style": "node-sass --watch assets/scss/styles.scss assets/css/styles.css",
+    "watch-sass-style-guide": "node-sass --watch assets/scss/style-guide.scss assets/css/style-guide.css",
+
+
+If you notice when you modify any partials and on save doesn't generate the new css, then you have to run
+    "sass-style": "node-sass assets/scss/styles.scss assets/css/styles.css",
+    "sass-style-guide": "node-sass assets/scss/style-guide.scss assets/css/style-guide.css"
+I don't know why the watch is occasionally not working.
