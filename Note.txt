@@ -3,6 +3,8 @@ https://app.pluralsight.com/library/courses/creating-living-style-guide-sass-van
 https://github.com/Annie-Huang/a-living-style-guide-with-sass-and-vanilla-javascript
 
 http://sass.js.org/
+
+https://stackoverflow.com/questions/46953808/node-sass-installation-issue-on-windows-10
 ============================================================================================
 
 C:\react\a-living-style-guide-with-sass-and-vanilla-javascript>npm init -y
