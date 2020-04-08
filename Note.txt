@@ -8,6 +8,8 @@ https://github.com/substack/tabby#readme
 https://nickpiscitelli.github.io/Glider.js/
 https://material.io/components/text-fields/#filled-text-field
 https://getbootstrap.com/docs/4.0/components/alerts/
+https://www.w3.org/TR/wai-aria-practices-1.1/
+https://developer.mozilla.org/en-US/docs/Web/Accessibility
 
 https://stackoverflow.com/questions/46953808/node-sass-installation-issue-on-windows-10
 

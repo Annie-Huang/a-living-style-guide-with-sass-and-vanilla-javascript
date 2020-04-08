@@ -25,6 +25,7 @@
             <li><a href="#styleguide-section-alignment">Alignment</a></li>
             <li><a href="#styleguide-section-media">Media Queries</a></li>
             <li><a href="#styleguide-section-grid">Grid</a></li>
+            <li><a href="#styleguide-section-accessibility">Accessibility</a></li>
             <li><a href="#styleguide-section-typography">Typography</a></li>
             <li><a href="#styleguide-section-images">Images</a></li>
             <li><a href="#styleguide-section-icons">Icons</a></li>
@@ -774,6 +775,72 @@
 
             </div> <!-- /.styleguide-section-block -->
           </section>
+
+          <section id="styleguide-section-accessibility" class="styleguide-section">
+            <h2>Accessibility</h2>
+            <div class="styleguide-section-docs">
+              <p>Use semantic HTML elements like header, nav, main, footer, section and appropriate headings.</p>
+              <p>Use a class of <code class="styleguide-code-inline">show-on-screen-readers</code> to display content only for screen readers but hide it visually.</p>
+              <p>Use the <code class="styleguide-code-inline">aria-hidden</code> attribute to hide content from screen readers but display it visually.</p>
+              <p>Use the <code class="styleguide-code-inline">aria-label</code> attribute to give information to screen readers when labels can't be used.</p>
+              <p>Add a descriptive value for the <code class="styleguide-code-inline">alt</code> attribute of images. Exceptions include descriptive images and those cases where information will be unnecessarily repeated.</p>
+              <p>For SVGs referred to in image tags, add the attribute and value <code class="styleguide-code-inline">role="img"</code> to help screen readers interpret the element as an image. Note: This may cause the HTML5 validator to give you a warning.</p>
+              <p>Ensure users are able to navigate the site via the keyboard.</p>
+              <p>Ensure that every input has an <code class="styleguide-code-inline">ID</code> that matches the <code class="styleguide-code-inline">for</code> attribute of its label. Avoid using placeholders to replace labels. If you do use placeholders, make sure a label is provided for screen readers.</p>
+            </div>
+            <div class="styleguide-section-block">
+              <div class="styleguide-section-files">Reference files: _globals.scss</div>
+
+              <h3>Screen Readers: Informative images</h3>
+              <div class="styleguide-section-docs">
+                <p>Informative images should have meaningful alt text which can be used by screen readers.</p>
+              </div>
+              <div class="styleguide-demo-block">
+                <div class="styleguide-demo-each">
+                  <img src="assets/svg/logos/logo.svg" width="44" height="44" alt="Logo: Adopt-a-Tree" role="img">
+                </div> <!-- /.styleguide-demo-each -->
+                <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+              </div> <!-- /.styleguide-demo-block -->
+
+              <h3>Screen Readers: Decorative images</h3>
+              <div class="styleguide-section-docs">
+                <p>Images with empty alt text are ignored by screen readers.</p>
+              </div>
+              <div class="styleguide-demo-block">
+                <div class="styleguide-demo-each">
+                  <img src="assets/svg/leaf-motif.svg" alt="" width="80" class="center-element" role="img">
+                </div> <!-- /.styleguide-demo-each -->
+                <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+              </div> <!-- /.styleguide-demo-block -->
+
+              <h3>Screen Readers: Informative font icons</h3>
+              <div class="styleguide-section-docs">
+                <p>This example uses the <code class="styleguide-code-inline">aria-hidden</code> attribute and <code class="styleguide-code-inline">show-on-screen-readers</code> class to make an "X" icon button accessible.</p>
+              </div>
+              <div class="styleguide-demo-block">
+                <div class="styleguide-demo-each">
+                  <button class="btn-reset">
+                    <span class="at-icon-x icon-size-xxl" aria-hidden="true"></span>
+                    <span class="show-on-screen-readers">Close Lightbox</span>
+                  </button>
+                </div> <!-- /.styleguide-demo-each -->
+                <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+              </div> <!-- /.styleguide-demo-block -->
+
+              <h3>Screen Readers: Decorative font icons</h3>
+              <div class="styleguide-section-docs">
+                <p>This example hides font icons, which are purely decorative, from screen readers using the <code class="styleguide-code-inline">aria-hidden</code> attribute.</p>
+              </div>
+              <div class="styleguide-demo-block">
+                <div class="styleguide-demo-each">
+                  <span class="at-icon-leaf" aria-hidden="true"></span>
+                  <span>The icon on the left is purely decorative.</span>
+                </div> <!-- /.styleguide-demo-each -->
+                <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
+              </div> <!-- /.styleguide-demo-block -->
+
+            </div> <!-- /.styleguide-section-block -->
+          </section> <!-- /.styleguide-section -->
 
           <section id="styleguide-section-typography" class="styleguide-section">
             <h2>Typography</h2>
