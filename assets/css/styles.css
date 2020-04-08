@@ -648,6 +648,13 @@ ul {
 ol {
   list-style-type: decimal; }
 
+.list-reset {
+  list-style-type: none;
+  margin-bottom: 0;
+  padding-left: 0; }
+  .list-reset li {
+    margin-bottom: 0; }
+
 a, .link {
   color: #3ABB8D;
   text-decoration: none;
