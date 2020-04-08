@@ -90,7 +90,8 @@
               <div class="styleguide-demo-block">
                 <div class="styleguide-demo-each">
                   <div>
-                    <span class="at-icon-logo brand-1"></span>
+                    <span class="at-icon-logo brand-1" aria-hidden="true"></span>
+                    <span class="show-on-screen-readers">Logo: Adopt-a-Tree</span>
                   </div>
                 </div> <!-- /.styleguide-demo-each -->
                 <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
@@ -111,7 +112,8 @@
               <div class="styleguide-demo-block">
                 <div class="styleguide-demo-each black-bg">
                   <div>
-                    <span class="at-icon-logo white"></span>
+                    <span class="at-icon-logo white" aria-hidden="true"></span>
+                    <span class="show-on-screen-readers">Logo: Adopt-a-Tree</span>
                   </div>
                 </div> <!-- /.styleguide-demo-each -->
                 <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
@@ -943,7 +945,7 @@
                 <div class="styleguide-demo-each">
                   <a href="#" class="link-action">
                     <span class="at-icon-arrow-right link-action-icon"></span>
-                    <span class="link-action-text font-size-sm">Read More</span>
+                    <span class="link-action-text font-size-sm" aria-hidden="true">Read More</span>
                   </a>
                 </div> <!-- /.styleguide-demo-each -->
                 <button class="btn-styleguide-code js-btn-styleguide-code btn btn--brand-1 btn--sm">Code</button>
@@ -1019,6 +1021,7 @@
               <p>Adopt-a-Tree's font icon set was created with the <a href="https://icomoon.io/app" target="_blank">Icomoon app</a>. It includes font icon families like <a href="https://github.com/feathericons/feather" target="_blank">Feather</a>, <a href="https://github.com/FortAwesome/Font-Awesome" target="_blank">Font Awesome</a>, <a href="https://github.com/Keyamoon/IcoMoon-Free" target="_blank">Icomoon</a> and <a href="https://github.com/stephenhutchings/typicons.font" target="_blank">Typicons</a>.</p>
               <p>Each icon has a class with a prefix of <code class="styleguide-code-inline">at-icon-</code>.</p>
               <p>To update the icon set, click the 'Import Icons' button on the <a href="https://icomoon.io/app/">Icomoon website</a> and upload the <em>selection.json</em> file from the <em>font-icon</em> folder inside the <em>assets</em> folder. Add or delete icons as needed. Download the new icon set, copy the contents of the CSS file into the <em>font-icons</em> partial and update the paths in the <code class="styleguide-code-inline">@font-face</code> rule in the file.</p>
+              <p>Font icons which are purely decorative can be hidden from screen users using the <code class="styleguide-code-inline">aria-hidden</code> attribute.</p>
               <p><a href="assets/font-icon/demo.html" class="font-bold">Click here to see the list of all icons.</a></p>
             </div>
             <div class="styleguide-section-block">
@@ -1529,19 +1532,19 @@
                 <div class="styleguide-demo-each">
                   <ul class="list-reset font-bold">
                     <li class="spacing-b">
-                      <span class="at-icon-leaf brand-1-light icon-left-lg icon-size-xxl vertical-align-bottom"></span>
+                      <span class="at-icon-leaf brand-1-light icon-left-lg icon-size-xxl vertical-align-bottom" aria-hidden="true"></span>
                       <span class="font-size-lg">List: Item 1</span>
                     </li>
                     <li class="spacing-b">
-                      <span class="at-icon-atom brand-2 icon-left-lg icon-size-xxl vertical-align-bottom"></span>
+                      <span class="at-icon-atom brand-2 icon-left-lg icon-size-xxl vertical-align-bottom" aria-hidden="true"></span>
                       <span class="font-size-lg">List: Item 2</span>
                     </li>
                     <li class="spacing-b">
-                      <span class="at-icon-restaurant red-crimson icon-left-lg icon-size-xxl vertical-align-bottom"></span>
+                      <span class="at-icon-restaurant red-crimson icon-left-lg icon-size-xxl vertical-align-bottom" aria-hidden="true"></span>
                       <span class="font-size-lg">List: Item 3</span>
                     </li>
                     <li class="spacing-b">
-                      <span class="at-icon-droplet blue-aqua icon-left-lg icon-size-xxl vertical-align-bottom"></span>
+                      <span class="at-icon-droplet blue-aqua icon-left-lg icon-size-xxl vertical-align-bottom" aria-hidden="true"></span>
                       <span class="font-size-lg">List: Item 4</span>
                     </li>
                   </ul>
@@ -1557,7 +1560,8 @@
                       <div class="content-block">
                         <div class="row flex">
                           <div class="col gray-coal">
-                            <div class="at-icon-dollar icon-size-xxl"></div>
+                            <div class="at-icon-dollar icon-size-xxl" aria-hidden="true"></div>
+                            <div class="show-on-screen-readers">Price in dollars:</div>
                             <div class="font-bold">10</div>
                           </div>
                           <div class="col flex-1 text-center">
@@ -1568,7 +1572,8 @@
                             <div class="gray-cement font-size-sm spacing-2-b">07/20/2019</div>
                           </div>
                           <div class="col brand-1-light">
-                            <div class="at-icon-leaf icon-size-xxl"></div>
+                            <div class="at-icon-leaf icon-size-xxl" aria-hidden="true"></div>
+                            <div class="show-on-screen-readers">Number of trees:</div>
                             <div class="font-bold">10</div>
                           </div>
                         </div>
@@ -1604,20 +1609,25 @@
                       <div class="card-banner-content">
                         <div class="row-sm flex">
                           <div class="col-sm card-location">
-                            <span class="at-icon-map icon-left"></span>
+                            <span class="at-icon-map icon-left" aria-hidden="true"></span>
+                            <span class="show-on-screen-readers">Location:</span>
                             <span class="font-size-sm font-bold">Borneo, Indonesia</span>
                           </div>
                           <div class="col-sm card-tree-cost">
-                            <span class="at-icon-dollar font-size-sm"></span>
+                            <span class="at-icon-dollar font-size-sm" aria-hidden="true"></span>
                             <span class="font-size-sm font-bold">1</span>
-                            <span class="at-icon-leaf icon-right"></span>
+                            <span class="show-on-screen-readers">Price in dollars:</span>
+                            <span class="at-icon-leaf icon-right" aria-hidden="true"></span>
                           </div>
                         </div>                        
                         <div class="card-banner-title">Afforestation near Coastal Forest</div>
                         <div class="card-banner-icons">
-                          <span class="at-icon-droplet card-banner-icon" title="Water Conservation"></span>
-                          <span class="at-icon-paw card-banner-icon" title="Wildlife Zone"></span>
-                          <span class="at-icon-atom card-banner-icon" title="Carbon Sink"></span>
+                          <span class="at-icon-droplet card-banner-icon" title="Water Conservation" aria-hidden="true"></span>
+                          <span class="show-on-screen-readers">Water Conservation</span>
+                          <span class="at-icon-paw card-banner-icon" title="Wildlife Zone" aria-hidden="true"></span>
+                          <span class="show-on-screen-readers">Wildlife Zone</span>
+                          <span class="at-icon-atom card-banner-icon" title="Carbon Sink" aria-hidden="true"></span>
+                          <span class="show-on-screen-readers">Carbon Sink</span>
                         </div>
                       </div>
                     </div>
@@ -1628,8 +1638,9 @@
                       <div class="row-sm flex card-progress-text">
                         <div class="col-sm">4%</div>
                         <div class="col-sm card-progress-target">
+                          <span class="show-on-screen-readers">Target:</span>
                           <span>75000</span>
-                          <span class="at-icon-target brand-1 icon-size-xl"></span>
+                          <span class="at-icon-target brand-1 icon-size-xl" aria-hidden="true"></span>
                         </div>
                       </div>
                       <div class="text-center spacing-2-t">
@@ -1685,19 +1696,19 @@
                   <ul class="tab-block" data-tabs>
                     <li class="tab-each">
                       <a href="#tab-projects" class="tab-each-anchor" data-tabby-default>
-                        <span class="at-icon-leaf icon-left-lg"></span>
+                        <span class="at-icon-leaf icon-left-lg" aria-hidden="true"></span>
                         <span>Projects</span>
                       </a>
                     </li>
                     <li class="tab-each">
                       <a href="#tab-payment" class="tab-each-anchor">
-                        <span class="at-icon-card icon-left-lg"></span>
+                        <span class="at-icon-card icon-left-lg" aria-hidden="true"></span>
                         <span>Payment</span>
                       </a>
                     </li>
                     <li class="tab-each">
                       <a href="#tab-profile" class="tab-each-anchor">
-                        <span class="at-icon-user icon-left-lg"></span>
+                        <span class="at-icon-user icon-left-lg" aria-hidden="true"></span>
                         <span>Profile</span>
                       </a>
                     </li>
