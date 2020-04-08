@@ -721,6 +721,15 @@ svg {
 .position-relative {
   position: relative; }
 
+.border-radius {
+  border-radius: 10px; }
+
+.border-radius-lg {
+  border-radius: 20px; }
+
+.border-radius-xl {
+  border-radius: 30px; }
+
 .icon-size-lg {
   font-size: 114.28571%; }
 
