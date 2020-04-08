@@ -658,7 +658,13 @@ ol {
 a, .link {
   color: #3ABB8D;
   text-decoration: none;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: all 0.2s linear; }
+  a:hover, .link:hover {
+    color: #41568C;
+    transition: all 0.2s linear; }
+  a:focus, .link:focus {
+    outline: 1px solid #75C8AA; }
 
 .link-action {
   color: #313C5A;
