@@ -5,6 +5,7 @@ https://github.com/Annie-Huang/a-living-style-guide-with-sass-and-vanilla-javasc
 http://sass.js.org/
 https://icomoon.io/app/#/select
 https://github.com/substack/tabby#readme
+https://nickpiscitelli.github.io/Glider.js/
 
 https://stackoverflow.com/questions/46953808/node-sass-installation-issue-on-windows-10
 
