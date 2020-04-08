@@ -6,6 +6,10 @@ http://sass.js.org/
 https://icomoon.io/app/#/select
 
 https://stackoverflow.com/questions/46953808/node-sass-installation-issue-on-windows-10
+
+Figma file is in:
+C:\react\a-living-style-guide-with-sass-and-vanilla-javascript\design-files\Adopt-a-Tree.fig
+
 ============================================================================================
 
 C:\react\a-living-style-guide-with-sass-and-vanilla-javascript>npm init -y
