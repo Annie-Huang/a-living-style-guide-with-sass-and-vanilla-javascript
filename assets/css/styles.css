@@ -861,6 +861,10 @@ svg {
   padding: 5px 15px;
   line-height: 1.2; }
 
+.btn--disabled {
+  opacity: 0.3;
+  pointer-events: none; }
+
 .btn-reset {
   color: #666;
   background: none;
