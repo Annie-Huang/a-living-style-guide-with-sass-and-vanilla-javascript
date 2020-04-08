@@ -660,6 +660,19 @@ a, .link {
   text-decoration: none;
   cursor: pointer; }
 
+.link-action {
+  color: #313C5A;
+  font-weight: 700; }
+
+.link-action-icon {
+  color: #75C8AA;
+  display: inline-block;
+  vertical-align: middle; }
+
+.link-action-text {
+  text-transform: uppercase;
+  vertical-align: middle; }
+
 img, video, svg {
   max-width: 100%;
   height: auto; }
