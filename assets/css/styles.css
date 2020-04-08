@@ -147,6 +147,30 @@ table {
 .color-link-bg {
   background-color: #3ABB8D; }
 
+.color-error {
+  color: #D05858; }
+
+.color-error-bg {
+  background-color: #D05858; }
+
+.color-success {
+  color: #3ABB8D; }
+
+.color-success-bg {
+  background-color: #3ABB8D; }
+
+.color-info {
+  color: #41568C; }
+
+.color-info-bg {
+  background-color: #41568C; }
+
+.color-disabled {
+  color: #F1F1F1; }
+
+.color-disabled-bg {
+  background-color: #F1F1F1; }
+
 .spacing {
   padding: 10px; }
 
