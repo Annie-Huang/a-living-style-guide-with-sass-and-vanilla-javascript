@@ -866,6 +866,9 @@ input[type="submit"].btn {
 .label--lg {
   font-size: 114.28571%; }
 
+.label--inverse {
+  color: #FFF; }
+
 .form-text {
   color: #222;
   background-color: #FFF;
@@ -901,6 +904,29 @@ input[type="submit"].btn {
 textarea {
   min-height: 110px;
   resize: vertical; }
+
+.form-text-inverse {
+  color: #FFF;
+  background-color: transparent;
+  border: 1px solid #FFF;
+  border-radius: 30px;
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 1.5;
+  padding: 10px 15px;
+  display: block;
+  width: 100%;
+  transition: all 0.2s linear; }
+  .form-text-inverse.placeholder {
+    color: #DADEE8; }
+  .form-text-inverse:-moz-placeholder {
+    color: #DADEE8; }
+  .form-text-inverse::-moz-placeholder {
+    color: #DADEE8; }
+  .form-text-inverse:-ms-input-placeholder {
+    color: #DADEE8; }
+  .form-text-inverse::-webkit-input-placeholder {
+    color: #DADEE8; }
 
 .input-group {
   color: #666;
