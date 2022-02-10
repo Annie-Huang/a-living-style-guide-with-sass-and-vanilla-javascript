@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/Annie-Huang/a-living-style-guide-with-sass-and-vanilla-javascript#readme",
   "devDependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   }
 }
